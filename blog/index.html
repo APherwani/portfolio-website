@@ -36,7 +36,7 @@ pagination:
       <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %-d, %Y' }}
       </p>
-      <p class="post-tags">
+      <!-- <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
           <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
 
@@ -55,7 +55,7 @@ pagination:
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
-    </p>
+    </p> -->
     </li>
 
     {% endfor %}
